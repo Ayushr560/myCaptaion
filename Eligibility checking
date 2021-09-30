@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{   
+    string name;
+    cout<< " Enter your name : \n";
+    cin>>name;
+    int age;
+    cout<< " Enter your age \n";
+    cin>>age;
+    if ( age >=0 )
+    { 
+    if (age>=18)
+    {
+        cout<< " Dear "<<name<<" you are eligible for voting \n  thank you ";
+    }
+    else 
+    cout<< " Dear "<<name<< " you will have to wait  for "<<18-age<< " years to vote \n  thank you ";
+    }
+    else cout<< " Madarc**d sahi number daal  \n thank you ";
+    return 0;
+
+}
