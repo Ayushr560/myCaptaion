@@ -18,7 +18,7 @@ int main()
     else 
     cout<< " Dear "<<name<< " you will have to wait  for "<<18-age<< " years to vote \n  thank you ";
     }
-    else cout<< " Madarc**d sahi number daal  \n thank you ";
+    else cout<< " please enter correct number \n thank you ";
     return 0;
 
 }
