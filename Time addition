@@ -1,0 +1,34 @@
+#include<iostream>
+using namespace std;
+class define
+{
+    protected:
+    int hours,minutes,seconds;
+};
+
+class time : public define 
+{
+    public:
+    information ()
+    {
+      cout<<" Enter Time : \n Hours ? "<<endl;
+      cin>>hours;
+      cout<<" Minutes ? "<<endl;
+      cin>>minutes;
+      cout<<" Seconds ? "<<endl;
+      cin>>seconds;
+      cout<< " The time is : "<<hours<<" : "<<minutes<<" : "<<seconds<<endl;
+             int x;
+       x= (hours*3600 + minutes*60 + seconds );
+       cout<<" Time in total seconds : "<<x<<endl;
+    }
+};
+
+
+
+int main()
+{
+    time a;
+    a.information();
+    return 0;
+}
